@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Final Exam</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+    <script src="javaScript.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <nav class="navbar navbar-expande-sm fixed-top">
+        <h3>Final Exam - Fundamentals</h3>
+      </nav>
+
+      <section class="main">
+        <div class="row col-md-12">
+          <div class="col-md-9">
+
+            <form id="img-form" action="index.html" method="post">
+
+              <div class="url">
+                <label for="img-url">Image URL</label>
+                <input type="url" name="img-url" value="" class="space-url form-control">
+              </div>
+
+              <div class="caption">
+                <label for="" class="">Caption</label>
+                <textarea name="caption" rows="8" cols="80" class="space-caption form-control"></textarea>
+              </div>
+              <input type="submit" name="" value="Submit" class="btn btn-info">
+
+            </form>
+
+            <div class="row col-md-12" id="gallery">
+            </div>
+
+          </div>
+          <div class="col-md-3" id="colu-text">
+            <article>
+              <h3>About Me</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                 pariatur. Excepteur sint occaecat cupidatat non proident,
+                 sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </article>
+
+            <article>
+              <h3>My Favorites</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                 pariatur. Excepteur sint occaecat cupidatat non proident,
+                 sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </article>
+
+            <article>
+              <h3>My Hobbies</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                 pariatur. Excepteur sint occaecat cupidatat non proident,
+                 sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </article>
+
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+
+
+  </body>
+</html>
